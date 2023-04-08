@@ -1,7 +1,7 @@
-import { answer } from '../src/index.js';
+import { answer } from "../src/index.js";
 
-describe('index', () => {
-	it('should give the answer', () => {
-		expect(answer()).toEqual(42);
-	});
+describe("index", () => {
+  it("should give the answer", () => {
+    expect(answer()).toEqual(42);
+  });
 });
