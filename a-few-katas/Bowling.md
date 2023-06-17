@@ -29,28 +29,30 @@ The game score is the total of all frame scores.
 
 Examples:
 
-X indicates a strike
-/ indicates a spare
+- `X` indicates a strike
+- `/` indicates a spare
+- `-` indicates a miss
+- `|` indicates a frame boundary
+- The characters after the || indicate bonus balls
 
-- indicates a miss
-  | indicates a frame boundary
-  The characters after the || indicate bonus balls
+`X|X|X|X|X|X|X|X|X|X||XX`
 
-X|X|X|X|X|X|X|X|X|X||XX
 Ten strikes on the first ball of all ten frames.
 Two bonus balls, both strikes.
 Score for each frame == 10 + score for next two
 balls == 10 + 10 + 10 == 30
 Total score == 10 frames x 30 == 300
 
-9-|9-|9-|9-|9-|9-|9-|9-|9-|9-||
+`9-|9-|9-|9-|9-|9-|9-|9-|9-|9-||`
+
 Nine pins hit on the first ball of all ten frames.
 Second ball of each frame misses last remaining pin.
 No bonus balls.
 Score for each frame == 9
 Total score == 10 frames x 9 == 90
 
-5/|5/|5/|5/|5/|5/|5/|5/|5/|5/||5
+`5/|5/|5/|5/|5/|5/|5/|5/|5/|5/||5`
+
 Five pins on the first ball of all ten frames.
 Second ball of each frame hits all five remaining
 pins, a spare.
@@ -59,7 +61,8 @@ Score for each frame == 10 + score for next one
 ball == 10 + 5 == 15
 Total score == 10 frames x 15 == 150
 
-X|7/|9-|X|-8|8/|-6|X|X|X||81
+`X|7/|9-|X|-8|8/|-6|X|X|X||81`
+
 Total score == 167
 
 
